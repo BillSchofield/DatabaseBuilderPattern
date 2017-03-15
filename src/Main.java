@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        // "INSERT INTO Customers (Id, CustomerName, ContactName, Address, City, PostalCode, Country) VALUES ('1','Name','Contact','Skagen 21','Stavanger','4006','Norway');");
-        // "INSERT INTO Orders (Number, CustomerId, Product, Quantity) VALUES ('1','1','Widget','1');"
+        System.out.println("INSERT INTO Customers (Id, CustomerName, ContactName, Address, City, PostalCode, Country) \nVALUES ('1','Name','Contact','Skagen 21','Stavanger','4006','Norway');");
+        System.out.println("INSERT INTO Orders (Number, CustomerId, Product, Quantity) \nVALUES ('1','1','Widget','1');");
 
 
         // Default customer
